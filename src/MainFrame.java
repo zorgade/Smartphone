@@ -1,4 +1,4 @@
-
+//test
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -15,6 +15,7 @@ import javax.swing.border.EmptyBorder;
 
 public class MainFrame extends JFrame {
 
+	private int i;
 	private JPanel panel1 = new JPanel();
 	private JPanel panel2 = new JPanel();
 	private JPanel panel3 = new JPanel();
@@ -31,7 +32,7 @@ public class MainFrame extends JFrame {
 //	BufferedImage  batterie;
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
-
+		
 
 		MainFrame frame = new MainFrame();
 		frame.setVisible(true);
